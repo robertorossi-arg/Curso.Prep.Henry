@@ -12,7 +12,7 @@ function crearUsuario() {
     this.usuario = opciones.usuario;
     this.nombre = opciones.nombre;
     this.email = opciones.email;
-    this.password = opciones.password;
+    this.password = opciones.password; 
   }
 
   Usuario.prototype.saludar=function() {
