@@ -1,0 +1,24 @@
+h1 {
+  color:green;
+}
+h3 {
+  color:blue;
+}
+img {
+  width: 400px;
+}
+.divClass {
+  font-style: italic;
+  font-family: monospace;
+}
+#thirdDiv {
+  width: 500;
+  height: 600;
+  background-color: yellow;
+  padding: 50px;
+  border: 10px;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}

@@ -30,7 +30,7 @@ describe('capToFront(s)', function() {
     expect(capToFront("soyHENRY")).toEqual("HENRYsoy");
     expect(capToFront("DESArrollaDOR")).toEqual("DESADORrrolla");
   });
-}); 
+});
 
 describe('asAmirror(str)', function() {
   it('should return the string recieved with all the words reversed as a mirror', function() {
@@ -47,7 +47,7 @@ describe('capicua(numero)', function() {
     expect(capicua(7878700)).toEqual("No es capicua");
 
   });
-});  
+});
 
 describe('deleteAbc(cadena)', function() {
   it('should return the modified string if it has the letters abc or the same string otherwise', function() {
@@ -57,7 +57,7 @@ describe('deleteAbc(cadena)', function() {
     expect(deleteAbc("limon")).toEqual("limon");
 
   });
-});  
+});
 
 describe('sortArray(array)', function() {
   it('should return a new array in increasing order', function() {
@@ -72,7 +72,4 @@ describe('buscoInterseccion(arreglo1, arreglo2)', function() {
     expect(buscoInterseccion([7 , 23, 4], [23, 70])).toEqual([23]);
     expect(buscoInterseccion([1, 20 , 3], [22, 5, 7])).toEqual([]);
   });
-});    
-
-
-
+});
