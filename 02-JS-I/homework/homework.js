@@ -3,7 +3,7 @@
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = 'Curso JS';
 
-// Crea una variable numérica, puede ser cualquier número: 
+// Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 16;
 
 // Crea una variable booleana:
